@@ -8,7 +8,7 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color : #333333;
+            background-color: #333333;
         }
         header {
             background-color: #0F0F0F;
@@ -23,8 +23,14 @@
             margin-right: auto;
         }
         nav {
+            margin-left: auto;
+        }
+        nav ul {
             display: flex;
             gap: 20px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
         }
         nav a {
             color: white;
@@ -32,7 +38,6 @@
             font-weight: bold;
         }
         .search {
-            margin-left: auto;
             display: flex;
             align-items: center;
         }
@@ -52,12 +57,19 @@
 </head>
 <body>
     <header>
-        <div class="logo">MyApp</div>
+        <div class="logo">KumpulTv</div>
         <nav>
-            <a href="#">Beranda</a>
-            <a href="#">Katalog</a>
-            <a href="#">Playlist</a>
-            <a href="#">Akun</a>
+            <ul>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#">Katalog</a></li>
+                <li><a href="#">Playlist</a></li>
+                <li><a href="#">Akun</a></li>
+            </ul>
         </nav>
         <div class="search">
-            <input type="text" placeholde
+            <input type="text" placeholder="Cari...">
+            <button>Cari</button>
+        </div>
+    </header>
+</body>
+</html>
