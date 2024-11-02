@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Header Seperti Spotify</title>
+    <title>Kumpul TV</title>
     <style>
         body {
             margin: 0;
@@ -37,21 +37,15 @@
             text-decoration: none;
             font-weight: bold;
         }
-        .search {
-            display: flex;
-            align-items: center;
+        nav a:hover {
+            color: #CCCCCC; /* Ganti warna saat hover */
         }
-        .search input {
-            padding: 5px;
-            border: none;
-            border-radius: 5px;
-        }
-        .search button {
-            background: none;
-            border: none;
-            color: white;
-            cursor: pointer;
-            margin-left: 5px;
+        #Sambutan {
+            background-color: #666666;
+            color: #CCCCCC;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px; /* Menambahkan jarak di atas */
         }
     </style>
 </head>
@@ -61,15 +55,14 @@
         <nav>
             <ul>
                 <li><a href="#">Beranda</a></li>
-                <li><a href="#">Katalog</a></li>
-                <li><a href="#">Playlist</a></li>
-                <li><a href="#">Akun</a></li>
+                <li><a href="#">Channel</a></li>
+                <li><a href="#">M3U8 Player</a></li>
             </ul>
         </nav>
-        <div class="search">
-            <input type="text" placeholder="Cari...">
-            <button>Cari</button>
-        </div>
     </header>
+    <div id="Sambutan">
+        <h1>Selamat Datang di Kumpul TV!</h1>
+        <p>Nikmati berbagai channel dan tayangan terbaik di sini.</p>
+    </div>
 </body>
 </html>
